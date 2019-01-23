@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Kalkulator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="367.5" Width="491">
+    <Grid Margin="0,0,2,0">
+        <Button Content="Dodawanie" HorizontalAlignment="Left" Margin="50,50,0,0" VerticalAlignment="Top" Width="80" Height="35"/>
+        <Button Content="Odejmowanie" HorizontalAlignment="Left" Margin="50,100,0,0" VerticalAlignment="Top" Width="80" Height="35" RenderTransformOrigin="0.52,0.925"/>
+        <Button Content="Mnożenie" HorizontalAlignment="Left" Margin="50,150,0,0" VerticalAlignment="Top" Width="80" Height="35" RenderTransformOrigin="0.52,0.925"/>
+        <Button Content="Dzielenie" HorizontalAlignment="Left" Margin="50,200,0,0" VerticalAlignment="Top" Width="80" Height="35" RenderTransformOrigin="0.52,0.925"/>
+        <TextBox HorizontalAlignment="Left" Margin="140,50,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Height="35" />
+        <TextBox HorizontalAlignment="Left" Margin="140,100,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Height="35" />
         
+
     </Grid>
 </Window>
