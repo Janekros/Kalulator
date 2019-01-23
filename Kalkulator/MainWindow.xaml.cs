@@ -24,5 +24,45 @@ namespace Kalkulator
         {
             InitializeComponent();
         }
+
+        int a;
+        int b;
+        int c;
+
+        private void BT_Dodawanie_Click(object sender, RoutedEventArgs e)
+        {
+            a = int.Parse(TXB_1.Text);
+            b = int.Parse(TXB_2.Text);
+
+            c = a + b;
+            MessageBox.Show(c.ToString());
+        }
+
+        private void BT_Odejmowanie_Click(object sender, RoutedEventArgs e)
+        {
+            a = int.Parse(TXB_1.Text);
+            b = int.Parse(TXB_2.Text);
+
+            c = a - b;
+            MessageBox.Show(c.ToString());
+        }
+
+        private void BT_Mnozenie_Click(object sender, RoutedEventArgs e)
+        {
+            a = int.Parse(TXB_1.Text);
+            b = int.Parse(TXB_2.Text);
+
+            c = a * b;
+            MessageBox.Show(c.ToString());
+        }
+
+        private void BT_Dzielenie_Click(object sender, RoutedEventArgs e)
+        {
+            a = int.Parse(TXB_1.Text);
+            b = int.Parse(TXB_2.Text);
+
+            c = a / b;
+            MessageBox.Show(c.ToString());
+        }
     }
 }
